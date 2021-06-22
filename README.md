@@ -22,9 +22,9 @@ Jostar (from the Farsi word “جستار” meaning “finder”) is a Python-b
 - Display the results of your classification or regression task
 
 ## Example
-![](https://doc-14-90-docs.googleusercontent.com/docs/securesc/mhc7nlp7l3ujrv42bt62fmuuq5segrsm/75erp660gkd15qto0onqnjjtcdh6n81o/1624289925000/06678240213073000240/06678240213073000240/1ZP1bZnKhhwLf89tKyHfY3bFkUxiJz2E6?authuser=0)
+![](https://github.com/yxoos/jostar/blob/main/jostar/examples/example.gif)
 
-![](https://doc-0k-90-docs.googleusercontent.com/docs/securesc/mhc7nlp7l3ujrv42bt62fmuuq5segrsm/v3lmfjq6lq780hl0i313qmu75c78296m/1624300650000/06678240213073000240/06678240213073000240/1dnnBAvteXP7EX5z5ECbIN8hPIDuPoggj?authuser=0&nonce=827s3qvf20kq2&user=06678240213073000240&hash=jllof9oeu9aa9i68c57d2njt0mklm5us)
+![](https://github.com/yxoos/jostar/blob/main/jostar/examples/pareto_front.gif)
 
 
 ## Installation
