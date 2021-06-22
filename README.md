@@ -118,7 +118,10 @@ If you would like to develop and run tests for Jostar, run the following command
 $ pip install -e .[dev]
 ```
 
-## Acknowledgement adn References
+## Acknowledgement and References
+
+Jostar is an extended Python version of [YPEA](https://github.com/smkalami/ypea) developed in MATALB.
+
 If you found this project useful in your research, consider citing us.
 ```
 
