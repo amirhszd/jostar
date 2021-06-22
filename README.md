@@ -22,8 +22,9 @@ Jostar (from the Farsi word “جستار” meaning “finder”) is a Python-b
 - Display the results of your classification or regression task
 
 ## Example
+With only few lines of code:
 ![](https://github.com/yxoos/jostar/blob/main/jostar/examples/example.gif)
-
+Evolution of created pareto front via NSGA2:
 ![](https://github.com/yxoos/jostar/blob/main/jostar/examples/pareto_front.gif)
 
 
