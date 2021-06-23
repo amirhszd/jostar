@@ -1,7 +1,7 @@
 # Jostar
 ## _Feature Selection Module for Data Sciences in Python_
 
-Jostar (from the Farsi word “جستار” meaning “finder”) is a Python-based feature selection module comprised of nine different feature selection approaches from single objective to multi-objective methods, for regression and classification tasks. The algorithms, to this date, are:
+Jostar, from the Farsi word *جستار* meaning *finder*, is a Python-based feature selection module comprised of nine different feature selection approaches from single objective to multi-objective methods, for regression and classification tasks. The algorithms, to this date, are:
 
 - Ant Colony Optimization (ACO)
 - Differential Evolution (DE)
@@ -15,7 +15,7 @@ Jostar (from the Farsi word “جستار” meaning “finder”) is a Python-b
 
 ## Features
 
-- User-friendly, Sklearn-like interface (just call "_fit_" )
+- User-friendly, Sklearn-like interface (just call _fit_ )
 - Thorough documentation and explanation of hyperparameters and their ranges  
 - Tune hyperparameters easily 
 - Generate rankings of the selected features  
@@ -42,13 +42,15 @@ pytest
 ```
 
 ## Documentation
-Jostar comes with a powerful documentation. 
+Jostar comes with a powerful documentation. Below is the in-line documentation for Genetic Algorithm. 
 
 ```python
 class GA(BaseFeatureSelector):
+
     def __init__(self, model, n_f, weight, scoring, n_gen=1000, n_pop=20 , cv=None,                                
-                 cross_perc = 0.5, mut_perc = 0.3, mut_rate= 0.02, beta = 5,
-                 verbose= True, random_state=None,**kwargs):
+				cross_perc = 0.5, mut_perc = 0.3, mut_rate= 0.02, beta = 5,
+				verbose= True, random_state=None,**kwargs):
+
         """
         Genetic Algorithms or GA is a widely used global optimization algorithm 
         which was first introduced by Holland. GA is based on the natural selection
@@ -122,8 +124,4 @@ $ pip install -e .[dev]
 ## Acknowledgement and References
 
 Jostar is an extended Python version of [YPEA](https://github.com/smkalami/ypea) developed in MATALB.
-
 If you found this project useful in your research, consider citing us.
-```
-
-```
