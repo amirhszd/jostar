@@ -11,7 +11,7 @@ setup(
 	author="Amirhossein Hassanzadeh",
 	url = "",
 	author_email = "ah7557@rit.edu" ,
-	packages_dir={"":"jostar"},
+	package_dir={"":"jostar"},
 	keywords={"optimization", "feature-selection","genetic algorithm", "particle swarm", "ant colony", "metaheuristics", "differential evolution", "sequential search", "multi-objective"},
 	classifiers=['Programming Language :: Python :: 3.6',
 				"License :: OSI Approved :: MIT License",
