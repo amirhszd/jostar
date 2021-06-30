@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 import os
 base_dir = os.path.dirname(__file__)
 
@@ -8,14 +8,14 @@ with open(os.path.join(base_dir, "README.md")) as f:
     
 setup(
 	name= "jostar",
-	version="0.0.2",
+	version="0.0.3",
 	description="Feature Selection Module for Data Sciences in Python",
 	long_description=long_description,
 	long_description_content_type = "text/markdown",
 	author="Amirhossein Hassanzadeh",
 	url = "",
 	author_email = "ah7557@rit.edu" ,
-	package_dir={"":"jostar"},
+	packages=find_packages(),
 	keywords={"optimization", "feature-selection","genetic algorithm", "particle swarm", "ant colony", "metaheuristics", "differential evolution", "sequential search", "multi-objective"},
 	classifiers=['Programming Language :: Python :: 3.6',
 				"License :: OSI Approved :: MIT License",
