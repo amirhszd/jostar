@@ -1,4 +1,4 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 import os
 base_dir = os.path.dirname(__file__)
 
@@ -16,7 +16,6 @@ setup(
 	url = "",
 	author_email = "ah7557@rit.edu" ,
 	package_dir={"":"jostar"},
-	packages = find_packages(),
 	keywords={"optimization", "feature-selection","genetic algorithm", "particle swarm", "ant colony", "metaheuristics", "differential evolution", "sequential search", "multi-objective"},
 	classifiers=['Programming Language :: Python :: 3.6',
 				"License :: OSI Approved :: MIT License",
