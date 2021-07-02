@@ -27,15 +27,15 @@ With only few lines of code:
 from sklearn.cross_decomposition import PLSRegression
 from jostar.algorithms import ACO
 from sklearn.metrics import r2_score
+import pandas as pd
 
 data = pd.read_csv(r"F:\SnapbeanSummer2020\regression_data_v2.csv").to_numpy()
 x = data[:,1:]
 y = data[:,0]
 model = PLSRegression()
-cv = KFold()
 
 # # optimizing 
-aco = ACO(model=model, n_f=5, weight=1, scoring=r2_score, cv=cv , n_iter=30)
+aco = ACO(model=model, n_f=5, weight=1, scoring=r2_score, n_iter=30)
 
 aco.fit(x,y,decor=0.95, scale = True)
 ```
