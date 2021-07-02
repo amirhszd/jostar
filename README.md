@@ -5,9 +5,9 @@ Jostar, from the Farsi word *جستار* meaning *finder*, is a Python-based fea
 
 - Ant Colony Optimization (ACO)
 - Differential Evolution (DE)
-- Genetic Algorithm (GE)
+- Genetic Algorithm (GA)
 - Plus-L Minus-R (LRS)
-- Non-dominated Sorting Genetic Algorithm (NSGA-II)
+- Non-dominated Sorting Genetic Algorithm (NSGAII)
 - Particle Swarm Optimization (PSO)
 - Simulated Annealing (SA)
 - Sequential Forward Selection (SFS)
@@ -23,8 +23,25 @@ Jostar, from the Farsi word *جستار* meaning *finder*, is a Python-based fea
 
 ## Example
 With only few lines of code:
-![](https://github.com/yxoos/jostar/blob/main/jostar/examples/example.gif)
-Evolution of created pareto front via NSGA2:
+```python
+from sklearn.cross_decomposition import PLSRegression
+from jostar.algorithms import ACO
+from sklearn.metrics import r2_score
+import pandas as pd
+
+data = pd.read_csv(r"F:\SnapbeanSummer2020\regression_data_v2.csv").to_numpy()
+x = data[:,1:]
+y = data[:,0]
+model = PLSRegression()
+
+# # optimizing 
+aco = ACO(model=model, n_f=5, weight=1, scoring=r2_score, n_iter=30)
+
+aco.fit(x,y,decor=0.95, scale = True)
+```
+
+Evolution of created pareto front via NSGAII:
+
 ![](https://github.com/yxoos/jostar/blob/main/jostar/examples/pareto_front.gif)
 
 
