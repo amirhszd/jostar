@@ -24,7 +24,7 @@ Jostar, from the Farsi word *جستار* meaning *finder*, is a Python-based fea
 ## Example
 With only few lines of code:
 ```python
-sklearn.cross_decomposition import PLSRegression
+from sklearn.cross_decomposition import PLSRegression
 from jostar.algorithms import ACO
 from sklearn.metrics import r2_score
 
