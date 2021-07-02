@@ -41,6 +41,7 @@ aco.fit(x,y,decor=0.95, scale = True)
 ```
 
 Evolution of created pareto front via NSGAII:
+
 ![](https://github.com/yxoos/jostar/blob/main/jostar/examples/pareto_front.gif)
 
 
