@@ -1,4 +1,4 @@
-# Jostar
+# <img alt="Jostar" src="/jostar/examples/logo.svg" height="60">
 ## _Feature Selection Module for Data Sciences in Python_
 
 Jostar, from the Farsi word *جستار* meaning *finder*, is a Python-based feature selection module comprised of nine different feature selection approaches from single objective to multi-objective methods, for regression and classification tasks. The algorithms, to this date, are:
