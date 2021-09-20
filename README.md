@@ -144,5 +144,10 @@ Jostar is an extended Python version of [YPEA](https://github.com/smkalami/ypea)
 If you found this project useful in your research, pelase consider citing out paper.
 
 ```
-@article{Hassanzadeh_2021, title={Broadacre Crop Yield Estimation Using Imaging Spectroscopy from Unmanned Aerial Systems (UAS): A Field-Based Case Study with Snap Bean}, volume={13}, ISSN={2072-4292}, url={http://dx.doi.org/10.3390/rs13163241}, DOI={10.3390/rs13163241}, number={16}, journal={Remote Sensing}, publisher={MDPI AG}, author={Hassanzadeh, Amirhossein and Zhang, Fei and van Aardt, Jan and Murphy, Sean P. and Pethybridge, Sarah J.}, year={2021}, month={Aug}, pages={3241}}
+@article{Hassanzadeh_2021, title={Broadacre Crop Yield Estimation Using Imaging Spectroscopy from 
+Unmanned Aerial Systems (UAS): A Field-Based Case Study with Snap Bean}, volume={13}, 
+ISSN={2072-4292}, url={http://dx.doi.org/10.3390/rs13163241}, DOI={10.3390/rs13163241}, 
+number={16}, journal={Remote Sensing}, publisher={MDPI AG}, 
+author={Hassanzadeh, Amirhossein and Zhang, Fei and van Aardt, Jan and Murphy, 
+Sean P. and Pethybridge, Sarah J.}, year={2021}, month={Aug}, pages={3241}}
 ```
