@@ -141,7 +141,7 @@ $ pip install -e .[dev]
 ## Acknowledgement and References
 
 Jostar is an extended Python version of [YPEA](https://github.com/smkalami/ypea) developed in MATALB.
-If you found this project useful in your research, pelase consider citing out paper.
+If you found this project useful in your research, pelase consider citing our paper.
 
 ```
 @article{Hassanzadeh_2021, title={Broadacre Crop Yield Estimation Using Imaging Spectroscopy from 
