@@ -40,6 +40,8 @@ class BaseFeatureSelector(object):
         #self.scorer = self._check_scoring()   
         self.scorer = self._scorer_maker(**kwargs)        
         self.verbose = verbose
+
+        self.x_test, self.y_test = None, None
     
     def load(self,x,y,decor=None,scale=False):
         """
