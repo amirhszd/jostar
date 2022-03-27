@@ -8,7 +8,7 @@ with open(os.path.join(base_dir, "README.md")) as f:
     
 setup(
 	name= "jostar",
-	version="0.0.3",
+	version="0.0.4",
 	description="Feature Selection Module for Data Sciences in Python",
 	long_description=long_description,
 	long_description_content_type = "text/markdown",
